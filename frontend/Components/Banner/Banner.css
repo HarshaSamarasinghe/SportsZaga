@@ -1,0 +1,56 @@
+.modern-banner-container {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../../src/assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+
+.modern-banner-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+.modern-banner-content {
+  text-align: center;
+  max-width: 700px;
+  padding: 20px;
+  z-index: 2;
+}
+
+.modern-banner-title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.modern-banner-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.modern-banner-button {
+  padding: 8px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #fff;
+}

@@ -1,0 +1,66 @@
+.shippingDetails {
+  padding: 100px 5%;
+}
+
+.shippingDetailsTitle {
+  align-items: center;
+  display: flex;
+}
+.shippingDetailsName {
+  font-weight: 400;
+  margin-left: 10px;
+}
+.shippingForm {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.02);
+  border: 1px solid #2222222a;
+  border-radius: 14px;
+  padding: 40px;
+  margin-top: 20px;
+  width: 100%;
+}
+.shippingInfoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.shippingInfo {
+  width: 100%;
+}
+
+.shippingInfo h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.shippingInfo input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #2222222a;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.shippingInfo input:focus {
+  border: 1px solid #2222222a;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.checkout {
+  margin-top: 20px;
+  padding: 5px 50px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: 1px solid #2222227a;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+.checkout:hover {
+  background-color: #222;
+  color: #fff;
+}

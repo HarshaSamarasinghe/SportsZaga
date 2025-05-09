@@ -1,0 +1,104 @@
+/* Container */
+.create-repair-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.create-repair-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Description */
+.create-repair-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Form Container */
+.create-repair-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.create-repair-form-container label {
+  font-weight: 600;
+  margin-top: 15px;
+  display: block;
+  color: #444;
+}
+
+/* Inputs */
+.create-repair-form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.create-repair-form-container input:focus {
+  outline: none;
+  border-color: black;
+  background-color: #fff;
+}
+
+/* Submit Button Container */
+.create-repair-button {
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* Submit Button */
+.rep-submit-button {
+  background-color: white;
+  color: black;
+  padding: 8px 28px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+
+.rep-submit-button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+/* Note */
+.create-repair-note {
+  font-size: 12px;
+  color: #999;
+  margin-top: 25px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .create-repair-container {
+    padding: 20px;
+  }
+
+  .rep-submit-button {
+    width: 100%;
+  }
+}

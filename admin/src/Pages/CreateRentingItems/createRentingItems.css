@@ -1,0 +1,63 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.message {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-fields {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image-label {
+  text-align: start;
+}
+
+.image-box {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  align-items: start;
+}
+
+.btn-Add {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.btn-Add:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}

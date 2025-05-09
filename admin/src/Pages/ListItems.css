@@ -1,0 +1,85 @@
+.list-items-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.no-items {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+.item-horizontal-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.item-image-section {
+  flex: 0 0 150px;
+  margin-right: 20px;
+}
+
+.item-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item-info-section {
+  flex: 2;
+  min-width: 250px;
+}
+
+.item-info-section h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.item-info-section p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.specifications h4 {
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.item-action-section {
+  min-width: 100px;
+}
+
+.action-button {
+  margin: 5px 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.genOrdersReport {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 18px;
+  border-radius: 28px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}

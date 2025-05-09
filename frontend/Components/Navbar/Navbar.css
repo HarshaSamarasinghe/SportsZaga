@@ -1,0 +1,82 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10%;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.navbar-logo span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 20px;
+}
+
+.navbar-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #000;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 7px;
+}
+
+.navbar-actions button {
+  padding: 4px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar-actions button:first-child {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.navbar-actions button:first-child:hover {
+  background-color: #000;
+  color: white;
+}
+
+.navbar-actions button:last-child {
+  background-color: #000;
+  border: none;
+  color: white;
+}
+
+.profileButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white; /* or whatever fits your navbar */
+}
+
+.profileButton i {
+  pointer-events: none;
+}

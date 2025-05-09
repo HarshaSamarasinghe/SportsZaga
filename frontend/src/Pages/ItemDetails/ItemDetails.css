@@ -1,0 +1,192 @@
+.itemDetailsContainer {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+}
+
+.leftItemDetails,
+.rightItemDetails {
+  width: 50%;
+  height: 100%;
+}
+
+.leftItemDetails {
+  background-color: #fff;
+  padding: 100px 2% 100px 5%;
+}
+.rightItemDetails {
+  padding: 100px 5% 100px 0px;
+}
+.bx-chevron-left {
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.bx-chevron-left:hover {
+  transform: translateX(-5px);
+}
+.itemDetailsTitle {
+  align-items: center;
+  display: flex;
+}
+
+.itemDetailsItemName {
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+/* image */
+.itemDetailsImage {
+  position: relative;
+  margin-top: 20px;
+  width: 90%;
+  height: 90%;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.02);
+  border: 1px solid #2222222a;
+  border-radius: 14px;
+  padding: 5px;
+}
+
+.bx-heart {
+  position: absolute;
+  z-index: 100;
+}
+.itemDetailsImage img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.leftItemDetailsInfo {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.itemDetailsBrand,
+.itemDetailsCategory,
+.itemDetailsPrice {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  & h3 {
+    color: #222;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  & h4 {
+    color: #2222227b;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+/* right */
+.rightItemDetails {
+  margin-top: 56px;
+}
+.customization-option {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.02);
+  border: 1px solid #2222222a;
+  padding: 10px;
+}
+.customization-option h4 {
+  font-weight: 400;
+}
+/* color */
+.color-options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.colorOutline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.color-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.colorOutline.selected {
+  border: 2px solid #222;
+}
+
+/* weight */
+.customization-option select {
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #2222222a;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.customization-option select:hover {
+  border: 1px solid #2222222a;
+}
+
+.customization-option select:focus {
+  border: 1px solid #2222222a;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.itemSize,
+.itemMaterial,
+.itemDurability,
+.itemColor {
+  margin-top: 10px;
+}
+
+.buyNowBtn {
+  margin-top: 20px;
+  padding: 5px 50px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: 1px solid #2222227a;
+  border-radius: 14px;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+.buyNowBtn:hover {
+  background-color: #222;
+  color: #fff;
+}
+/* reviews */
+.reviewsSection {
+  margin: 20px 5%;
+}

@@ -1,0 +1,115 @@
+.report-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.report-heading {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.report-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.date-range-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.date-input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.date-input-group label {
+    font-weight: 600;
+    color: #444;
+}
+
+.date-input-group input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.date-input-group input:focus {
+    outline: none;
+    border-color: #00bcd4;
+    background-color: #fff;
+}
+
+.generate-Renting-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    transition: background-color 0.4s ease;
+}
+
+.generate-Renting-button:hover {
+    background-color: #000000;
+    color: white;
+}
+.handleUpdate-button, .handleUpdateCancel-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.4s ease;
+  
+  }
+  
+  .handleUpdate-button:hover, .handleUpdateCancel-button:hover {
+    background-color: #000000;
+    color: white;
+  }
+
+.generate-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #f44336;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .date-range-container {
+        flex-direction: column;
+    }
+    
+    .report-container {
+        margin: 20px;
+        padding: 20px;
+    }
+} 

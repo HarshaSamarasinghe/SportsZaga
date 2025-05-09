@@ -1,0 +1,151 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.add-item-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2d3b56;
+  margin-bottom: 30px;
+}
+
+.add-item-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.input-field {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: black;
+  background-color: #fff;
+  outline: none;
+}
+
+.image-preview {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.image-preview-img {
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.specifications-section {
+  margin-top: 30px;
+  border-top: 2px solid #f1f1f1;
+  padding-top: 30px;
+}
+
+.specifications-section h3 {
+  font-size: 1.3rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.spec-button {
+  width: 150px;
+  padding: 8px 18px;
+  font-size: 16px;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-spec {
+  background-color: #fff;
+  color: black;
+  border: none;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.add-spec:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.delete-spec {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+}
+
+.delete-spec:hover {
+  background-color: #ff4757;
+}
+
+.spec-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.spec-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #000;
+  border-radius: 8px;
+  flex: 1;
+  background-color: #f9f9f9;
+}
+
+.submit-button {
+  margin-top: 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  width: 150px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 8px 18px;
+  font-size: 16px;
+  border-radius: 28px;
+}
+
+.submit-button:hover {
+  background-color: #1c1b1b;
+}

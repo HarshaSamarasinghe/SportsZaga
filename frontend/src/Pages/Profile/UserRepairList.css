@@ -1,0 +1,98 @@
+.user-repair-wrapper {
+  padding: 20px;
+}
+
+.user-repair-container {
+  padding: 20px;
+}
+
+.user-repair-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.user-repair-edit-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.user-repair-edit-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.user-repair-input,
+.user-repair-textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.user-repair-textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.user-repair-form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.user-repair-save-btn,
+.user-repair-cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.user-repair-save-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.user-repair-cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.user-repair-save-btn:hover {
+  background-color: #45a049;
+}
+
+.user-repair-cancel-btn:hover {
+  background-color: #e53935;
+}
+
+.user-repair-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-repair-table th,
+.user-repair-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.user-repair-table th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.user-repair-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.user-repair-table tr:hover {
+  background-color: #f1f1f1;
+  transition: 0.3s;
+}

@@ -1,0 +1,43 @@
+.rep-filters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.rep-search-input {
+    width: 100%;
+   
+}
+
+.rep-sort-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rep-sort-select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+}
+ 
+.rep-generate-report-btn {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.4s ease;
+  
+  }
+  
+  .rep-generate-report-btn:hover {
+    background-color: #000000;
+    color: white;
+  }
+

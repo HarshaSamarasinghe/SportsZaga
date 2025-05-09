@@ -1,0 +1,58 @@
+.review-form-container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+}
+
+.rating-section {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffc107;
+  transition: color 0.2s ease-in-out;
+}
+
+.star.selected {
+  color: #ff5722;
+}
+
+.addReviewArea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  font-size: 14px;
+  outline: none;
+}
+.addReviewArea:focus {
+  border: 1px solid #222;
+}
+
+.submit-button {
+  display: block;
+  width: fit-content;
+  padding: 5px 50px;
+  border: 1px solid #222;
+  border-radius: 25px;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background: black;
+  color: white;
+}

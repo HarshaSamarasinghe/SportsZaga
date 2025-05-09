@@ -1,0 +1,69 @@
+.cardWrapper {
+  width: 300px;
+  height: fit-content;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.02);
+  border: 1px solid #2222222a;
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 5px;
+}
+.cardContainer {
+  position: relative;
+}
+.bx-heart {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 20px;
+  color: #e1415d;
+  opacity: 0.5;
+}
+.itemImage {
+  border-bottom: 1px solid #2222222a;
+}
+
+.itemImage img {
+  width: 100%;
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 9px 9px 0px 0px;
+}
+.itemDetails {
+  padding: 10px;
+}
+.itemDetails h3 {
+  font-weight: 400;
+}
+.itemDetails h4 {
+  font-weight: 500;
+  color: #2222227a;
+  margin-top: -5px;
+}
+
+.buyItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy {
+  margin-top: 20px;
+  padding: 5px 50px;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: 1px solid #2222227a;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+.buy:hover {
+  background-color: #222;
+  color: #fff;
+}

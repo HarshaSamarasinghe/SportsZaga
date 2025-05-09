@@ -1,0 +1,112 @@
+/* Main container styling */
+.admin-container {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .admin-heading {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table thead th {
+    background-color: #171a1d;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #e9f5ff;
+  }
+  
+  /* Image styling */
+  .custom-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  
+  /* Color box */
+  .color-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+  }
+  
+  /* Button container for spacing */
+  .button-container {
+    display: flex;        /* Flexbox to align buttons */
+    justify-content: flex-start;
+    gap: 10px;            /* Gap between buttons */
+  }
+  
+  /* Button styling */
+  .update-btn, .delete-btn {
+    padding: 5px 12px;    /* Padding adjusted for better balance */
+    border-radius: 20px;
+    font-size: 14px;
+    border: 1px solid black;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Update button */
+  .update-btn {
+    background-color: white;
+    color: black;
+  }
+  
+  .update-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background-color: #050505;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #a71d2a;
+  }
+  
+  
+  .search-input {
+    padding: 10px;
+    width: 880px;
+    /* margin-bottom: 20px;
+    margin-left: 550px;
+    border-radius: 8px; */
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,72 @@
+.unique-home-category-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 5%;
+  flex-wrap: wrap;
+}
+
+.unique-category-box {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.unique-category-box:hover {
+  transform: scale(1.01);
+}
+
+.unique-category-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  overflow: hidden;
+}
+
+.unique-category-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Dark semi-transparent overlay */
+  z-index: 1;
+}
+
+.unique-category-title {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 2; /* Text above overlay */
+  position: relative;
+}
+
+/* Specific background images for each category */
+.cricket-bg {
+  background-image: url("../../src/assets/peakpx.jpg");
+}
+
+.football-bg {
+  background-image: url("../../src/assets/2151156013.jpg");
+}
+
+.badminton-bg {
+  background-image: url("../../src/assets/pexels-airamdphoto-27064341.jpg");
+}
+
+.basketball-bg {
+  background-image: url("../../src/assets/pexels-cottonbro-6777239.jpg");
+}

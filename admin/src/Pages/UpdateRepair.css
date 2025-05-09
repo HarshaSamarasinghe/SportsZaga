@@ -1,0 +1,89 @@
+.rep-update-repair-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.rep-repair-list-heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.rep-update-repair-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rep-update-repair-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.rep-update-repair-form input,
+.rep-update-repair-form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.rep-update-repair-form input:focus,
+.rep-update-repair-form select:focus {
+  outline: none;
+  border-color: #00bcd4;
+  background-color: #fff;
+}
+
+/* Buttons Area */
+.rep-update-repair-form-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.rep-update-btn {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rep-update-btn:hover {
+  background-color: #0097a7;
+}
+
+.rep-cancel-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rep-cancel-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .rep-update-repair-form-button {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

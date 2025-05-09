@@ -1,0 +1,75 @@
+.settingsContainer {
+  padding: 40px;
+  width: fit-content;
+}
+
+.titleArea {
+  margin: auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.formGroup input {
+  width: 400px;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus {
+  border-color: black;
+  outline: none;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.updateUserDetailsButton {
+  background-color: white;
+  color: black;
+  padding: 8px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+
+.updateUserDetailsButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.loadingMessage {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 100px;
+  color: #777;
+}

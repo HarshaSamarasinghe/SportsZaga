@@ -1,0 +1,142 @@
+.product-card-outer {
+  padding-top: 80px;
+  padding-left: 0px;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 800px;
+  height: 400px;
+  background-color: #fff;
+}
+
+.product-image img {
+  min-width: 250px;
+  min-height: 250px;
+  border-radius: 5px;
+}
+
+.product-details {
+  flex: 1;
+  margin-left: 120px;
+}
+
+.product-details .product-name {
+  font-size: 30px;
+  color: #313131;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.ratings {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.ratings-count {
+  color: #666;
+}
+
+.price {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.availability {
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.day {
+  color: #5e5e5e;
+  font-size: small;
+}
+
+.button-container {
+  padding-top: 25px;
+  padding-left: 400px;
+  height: 200px;
+}
+
+.button-group {
+  display: flex;
+  gap: 80px;
+}
+
+.order-button,
+.order-button-fine {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.4s ease;
+}
+
+.order-button:hover,
+.order-button-fine:hover {
+  background-color: #000000;
+  color: white;
+}
+.custom-button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 70px;
+  transition: background-color 0.4s ease;
+}
+
+.custom-button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.custom-button.red {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: white;
+  color: #ff3838;
+  border: 1px solid;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.4s ease;
+}
+
+.custom-button.red:hover {
+  background-color: #ff3838;
+  color: white;
+}
+
+.custom-button.disabled {
+  background-color: #ffffff;
+  cursor: none;
+  pointer-events: none;
+}

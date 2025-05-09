@@ -1,0 +1,61 @@
+.ratingsAndReviewsContainer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+}
+
+.ratingsAndReviewsContainer p {
+  font-size: 16px;
+  color: #555;
+}
+
+.reviewCard {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.reviewCard .reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reviewCard .reviewUserIcon i {
+  font-size: 30px;
+  color: #4b4b4b;
+}
+
+.reviewCard .reviewDate {
+  font-size: 14px;
+  color: #888;
+}
+
+.reviewCard .reviewBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewCard .reviewRating {
+  margin-bottom: 10px;
+}
+
+.reviewCard .reviewRating i {
+  font-size: 18px;
+  color: #ffc107; /* Gold color for stars */
+}
+
+.reviewCard .reviewRating i.filled {
+  color: #ff5722; /* Orange color for filled stars */
+}
+
+.reviewCard .reviewText {
+  font-size: 14px;
+  color: #333;
+}
