@@ -11,5 +11,5 @@
 * 🌟 **Review System** – Users can add reviews and ratings for items.
 * 🛡️ **Admin Dashboard** – Admins have full control over user requests, including rentals, repairs, and customizations.
 
-> ✅ **My Contribution:**
-> I was responsible for implementing the **Renting Management Module**, including request creation, admin approval/rejection, item availability tracking, and return status updates.
+ ✅ **My Contribution:**
+ I was responsible for implementing the **Renting Management Module**, including request creation, admin approval/rejection, item availability tracking, and return status updates.
