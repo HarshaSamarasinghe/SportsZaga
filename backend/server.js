@@ -12,6 +12,9 @@ import userRoute from "./routes/userRoute.js";
 import repairRoute from "./routes/repairRoute.js";
 import rentingItemsRoute from "./Routes/rentingItemsRoute.js";
 import rentingOrderDetailsRoute from "./Routes/rentingOrderDetailsRoute.js";
+import dns from "dns";
+
+dns.setServers(["1.1.1.1", "8.8.8.8"]);
 
 // App Config
 const server = express();

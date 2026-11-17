@@ -10,7 +10,7 @@ const Home = () => {
         <div className="heroLeft"></div>
         <div className="heroRight">
           <div className="heroBg">
-            <h1 className="heroMainTitle">Where Passion Meets the Game.</h1>
+            <h1 className="heroMainTitle">Where Passion Meets the Harsha.</h1>
           </div>
         </div>
       </div>
